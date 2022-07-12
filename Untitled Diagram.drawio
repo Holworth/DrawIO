@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T10:25:39.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="H4QC0WP06byZiaPqeqFx" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T10:27:35.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SYIfF8QOkAVXJ4K_f5Ek" version="20.0.1" type="github">
   <diagram id="LNbFXsJFr9iNanMyev7O" name="Page-1">
     <mxGraphModel dx="1131" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="v7qtWtPgVOm1seYNRLXf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="v7qtWtPgVOm1seYNRLXf-4" target="v7qtWtPgVOm1seYNRLXf-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="185" y="90" />
-              <mxPoint x="675" y="90" />
+              <mxPoint x="185" y="100" />
+              <mxPoint x="675" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -57,10 +57,10 @@
         <mxCell id="v7qtWtPgVOm1seYNRLXf-15" value="&lt;b&gt;GlobalContext&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="320" y="140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v7qtWtPgVOm1seYNRLXf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="v7qtWtPgVOm1seYNRLXf-20" target="v7qtWtPgVOm1seYNRLXf-21">
+        <mxCell id="v7qtWtPgVOm1seYNRLXf-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="v7qtWtPgVOm1seYNRLXf-20" target="v7qtWtPgVOm1seYNRLXf-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7qtWtPgVOm1seYNRLXf-20" value="RaftWorker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="v7qtWtPgVOm1seYNRLXf-20" value="&lt;font color=&quot;#ff0000&quot;&gt;RaftWorker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="70" y="460" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7qtWtPgVOm1seYNRLXf-21" value="&lt;font color=&quot;#ff0000&quot;&gt;NewMsgHandler( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#FF0000;" vertex="1" parent="1">
@@ -96,10 +96,10 @@
         <mxCell id="v7qtWtPgVOm1seYNRLXf-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ticker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="460" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7qtWtPgVOm1seYNRLXf-35" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ff0000&quot;&gt;send(MsgTypeTick)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="v7qtWtPgVOm1seYNRLXf-35" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 13px;&quot;&gt;send(MsgTypeTick)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="180" y="450" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v7qtWtPgVOm1seYNRLXf-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;send(MsgTypeRaftMessage)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="v7qtWtPgVOm1seYNRLXf-40" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;send(MsgTypeRaftMessage)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="240" y="550" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v7qtWtPgVOm1seYNRLXf-41" value="&lt;font color=&quot;#000000&quot;&gt;raftLogGCWorker&lt;br&gt;schedulerWorker&lt;br&gt;splitCheckWorker&lt;br&gt;regionWorker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;strokeColor=#000000;align=center;" vertex="1" parent="1">
@@ -137,8 +137,8 @@
         <mxCell id="v7qtWtPgVOm1seYNRLXf-51" value="&lt;font color=&quot;#0000ff&quot;&gt;Engines&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;strokeColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="345" y="220" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v7qtWtPgVOm1seYNRLXf-54" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff0000&quot;&gt;HandleRaftReady( )&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="60" width="275" height="40" as="geometry" />
+        <mxCell id="v7qtWtPgVOm1seYNRLXf-54" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff0000&quot;&gt;HandleRaftReady( ): For persistence and raft apply&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
