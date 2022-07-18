@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T13:54:45.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4-QYKghI4GzU2O2dgg6Q" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T15:06:25.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wzSHzYub3OBzpCvoqFPq" version="20.1.1" type="github">
   <diagram id="tBIzFtv9pFjkW5kWRdbj" name="Page-1">
-    <mxGraphModel dx="1783" dy="-957" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="-820" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -421,7 +421,7 @@
           <mxGeometry x="1227" y="3948.23" width="533" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1227" y="3978.23" width="533" height="316" as="geometry" />
+          <mxGeometry x="1227" y="3978.23" width="533" height="429.77" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-5" target="D-rIPL_294MoTh9g5Jy0-6">
           <mxGeometry relative="1" as="geometry" />
@@ -438,20 +438,20 @@
         <mxCell id="D-rIPL_294MoTh9g5Jy0-6" value="&lt;i&gt;Construct Context&lt;/i&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1312.5" y="4081.34" width="362" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="D-rIPL_294MoTh9g5Jy0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-8" target="D-rIPL_294MoTh9g5Jy0-10">
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-8" target="D-rIPL_294MoTh9g5Jy0-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-8" target="D-rIPL_294MoTh9g5Jy0-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D-rIPL_294MoTh9g5Jy0-8" value="&lt;b&gt;RaftStore::loadPeers()&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-8" value="&lt;b&gt;regionPeers := RaftStore::loadPeers()&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1312.5" y="4162.339999999999" width="362" height="31" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-10" target="D-rIPL_294MoTh9g5Jy0-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-10" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;RaftStore::startWorkers()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1312.5" y="4236.11" width="362" height="31" as="geometry" />
+          <mxGeometry x="1312.5" y="4334" width="362" height="31" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-13" value="&lt;pre style=&quot;font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;worker.NewWorker(&quot;split-check&quot;&lt;span style=&quot;font-weight: bold;&quot;&gt;, &lt;/span&gt;wg)&lt;span style=&quot;font-weight: bold;&quot;&gt;,&lt;br&gt;&lt;/span&gt;worker.NewWorker(&quot;snapshot-worker&quot;&lt;span style=&quot;font-weight: bold;&quot;&gt;, &lt;/span&gt;wg)&lt;span style=&quot;font-weight: bold;&quot;&gt;,&lt;br&gt;&lt;/span&gt;worker.NewWorker(&quot;raft-gc-worker&quot;&lt;span style=&quot;font-weight: bold;&quot;&gt;, &lt;/span&gt;wg)&lt;span style=&quot;font-weight: bold;&quot;&gt;,&lt;br&gt;&lt;/span&gt;worker.NewWorker(&quot;scheduler-worker&quot;&lt;span style=&quot;font-weight: bold;&quot;&gt;, &lt;/span&gt;wg)&lt;span style=&quot;font-weight: bold;&quot;&gt;,&lt;br&gt;&lt;/span&gt;wg&lt;b&gt; = &lt;/b&gt;WaitGroup&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1825" y="3914" width="289" height="86" as="geometry" />
@@ -478,37 +478,37 @@
           <mxGeometry x="1848.5" y="4376" width="396" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-23" value="&lt;b&gt;RaftStore::startWorkers(peers*[ ])&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1277.5" y="4350" width="432" height="30" as="geometry" />
+          <mxGeometry x="1277.5" y="4459" width="432" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-24" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1277.5" y="4380" width="432" height="396" as="geometry" />
+          <mxGeometry x="1277.5" y="4489" width="432" height="396" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-25" target="D-rIPL_294MoTh9g5Jy0-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-25" value="rw := newRaftWorker( );&amp;nbsp;&lt;br&gt;go &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;rw.run( )&lt;/font&gt;&lt;/b&gt;&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1345.5" y="4399" width="296" height="43" as="geometry" />
+          <mxGeometry x="1345.5" y="4508" width="296" height="43" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-26" target="D-rIPL_294MoTh9g5Jy0-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-26" value="sw := newStoreWorker( );&amp;nbsp;&lt;br&gt;go sw.run( )&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1345.5" y="4488" width="296" height="42" as="geometry" />
+          <mxGeometry x="1345.5" y="4597" width="296" height="42" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-28" target="D-rIPL_294MoTh9g5Jy0-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-28" value="&lt;i&gt;start each peer:&lt;/i&gt;&amp;nbsp;router.send(MsgTypeStart)&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1345.5" y="4570" width="296" height="38" as="geometry" />
+          <mxGeometry x="1345.5" y="4679" width="296" height="38" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-30" target="D-rIPL_294MoTh9g5Jy0-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-30" value="&lt;i&gt;start each worker:&lt;/i&gt; in &lt;b&gt;RaftStore::Workers&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1345.5" y="4640" width="296" height="43" as="geometry" />
+          <mxGeometry x="1345.5" y="4749" width="296" height="43" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-32" value="go &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;bs&lt;/b&gt;.&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;tickerDriver.run()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1345.5" y="4718" width="296" height="33" as="geometry" />
+          <mxGeometry x="1345.5" y="4827" width="296" height="33" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-36" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;createPeer(storeID, config.Config*, Engines*, metapb.Region*)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="26" y="4931" width="538" height="30" as="geometry" />
@@ -560,6 +560,81 @@
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-52" value="&lt;b&gt;maybe&lt;/b&gt;: p.RaftGroup.Campaign( )" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1518" y="5055" width="231" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-58" target="D-rIPL_294MoTh9g5Jy0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-58" value="&lt;i style=&quot;&quot;&gt;register peers into router&lt;/i&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1312.5" y="4248" width="362" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;raftWorker::run( )&lt;/font&gt;&lt;/b&gt;" style="html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="81" y="5299" width="775" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-65" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="81" y="5335" width="775" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-66" target="D-rIPL_294MoTh9g5Jy0-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-66" value="for msg in &lt;i&gt;raftCh&lt;/i&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="109" y="5383" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-61" value="peerMsgHandler*" style="html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="656" y="5382.5" width="153" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-64" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#ff0000&quot;&gt;newPeerMsgHandler(peerState, ctx)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="337" y="5365" width="363" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-68" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;peerMsgHandler::HandleMsg(message.Msg)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="966" y="5299" width="831" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-69" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="966" y="5335" width="831" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-70" value="msg.Type" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="977" y="5351" width="113" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-71" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onRaftMsg( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1368" y="5355" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-74" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::proposeRaftCommand( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="5426" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-75" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onTick( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="5497" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-76" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onPrepareSplitRegion( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="5562" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-77" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onApproximateRegionSize( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="5632" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-78" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onGCSnap( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="5702" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-79" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::startTicker( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1368" y="5772" width="395" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-84" value="&lt;b&gt;MsgTypeRaftMessage&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="5357" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-87" value="&lt;b&gt;MsgTypeRaftCmd&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="5429.5" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-88" value="&lt;b&gt;MsgTypeStart&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1108" y="5775.5" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-89" value="&lt;b&gt;MsgTypeSplitRegion&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="5565.5" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-90" value="&lt;b&gt;MsgTypeRegionApproximateSize&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="5635.5" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-91" value="&lt;b&gt;MsgTypeGCSnap&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="5705.5" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-92" value="&lt;b&gt;MsgTypeTick&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="5500.5" width="228.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
