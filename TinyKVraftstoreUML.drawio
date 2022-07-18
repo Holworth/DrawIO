@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T13:07:36.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OuGlN6W8QsDruDqfuv47" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T13:54:45.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4-QYKghI4GzU2O2dgg6Q" version="20.1.1" type="github">
   <diagram id="tBIzFtv9pFjkW5kWRdbj" name="Page-1">
     <mxGraphModel dx="1783" dy="-957" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -509,6 +509,57 @@
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-32" value="go &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;bs&lt;/b&gt;.&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;tickerDriver.run()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1345.5" y="4718" width="296" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-36" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;createPeer(storeID, config.Config*, Engines*, metapb.Region*)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="26" y="4931" width="538" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-37" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="26" y="4961" width="538" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-38" target="D-rIPL_294MoTh9g5Jy0-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-38" value="&lt;i&gt;Get PeerID: region[storeID] -&amp;gt; metaPeer&amp;nbsp;&lt;/i&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="125.5" y="4987" width="339" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-39" target="D-rIPL_294MoTh9g5Jy0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-39" value="NewPeer(storeID, cfg, engines, region, sched, metaPeer)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="63.629999999999995" y="5054" width="462.75" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-41" value="&lt;b&gt;NewPeer(storeID, config.Config*, engine_util.Engines*, metapb.Region*, chan&amp;lt;- worker.Task, metapb.Peer)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="637" y="4931" width="1137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-42" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="637" y="4961" width="1137" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-43" target="D-rIPL_294MoTh9g5Jy0-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-43" value="ps:= NewPeerStorage(engines, region, regionSched, tag)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="4987" width="417" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-44" target="D-rIPL_294MoTh9g5Jy0-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-44" value="raftCfg := raft.Config { Storage: ps, ... }&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="656" y="5055" width="414" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-46" target="D-rIPL_294MoTh9g5Jy0-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-46" value="raftGroup := raft.NewRawNode(raftCfg)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="5055" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-50" target="D-rIPL_294MoTh9g5Jy0-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-50" value="p := peer { RaftGroup: raftGroup, ... }" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="4987" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-52" value="&lt;b&gt;maybe&lt;/b&gt;: p.RaftGroup.Campaign( )" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1518" y="5055" width="231" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
