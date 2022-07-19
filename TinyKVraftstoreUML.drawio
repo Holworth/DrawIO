@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T15:06:25.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wzSHzYub3OBzpCvoqFPq" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T10:56:11.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ktzeD17DuFTwVOFmi6fW" version="20.1.1" type="github">
   <diagram id="tBIzFtv9pFjkW5kWRdbj" name="Page-1">
     <mxGraphModel dx="2037" dy="-820" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -568,10 +568,10 @@
           <mxGeometry x="1312.5" y="4248" width="362" height="31" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;raftWorker::run( )&lt;/font&gt;&lt;/b&gt;" style="html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="81" y="5299" width="775" height="36" as="geometry" />
+          <mxGeometry x="81" y="5299" width="792" height="36" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-65" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="81" y="5335" width="775" height="210" as="geometry" />
+          <mxGeometry x="81" y="5335" width="792" height="210" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-66" target="D-rIPL_294MoTh9g5Jy0-61">
           <mxGeometry relative="1" as="geometry" />
@@ -579,62 +579,71 @@
         <mxCell id="D-rIPL_294MoTh9g5Jy0-66" value="for msg in &lt;i&gt;raftCh&lt;/i&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="109" y="5383" width="231" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-61" target="D-rIPL_294MoTh9g5Jy0-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-61" value="peerMsgHandler*" style="html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="656" y="5382.5" width="153" height="31" as="geometry" />
+          <mxGeometry x="695" y="5382.5" width="143" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-64" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#ff0000&quot;&gt;newPeerMsgHandler(peerState, ctx)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="337" y="5365" width="363" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-68" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;peerMsgHandler::HandleMsg(message.Msg)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="966" y="5299" width="831" height="36" as="geometry" />
+          <mxGeometry x="1022" y="5299" width="831" height="36" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-69" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="966" y="5335" width="831" height="520" as="geometry" />
+          <mxGeometry x="1022" y="5335" width="831" height="520" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-70" value="msg.Type" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="977" y="5351" width="113" height="36" as="geometry" />
+          <mxGeometry x="1033" y="5351" width="113" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="D-rIPL_294MoTh9g5Jy0-71" target="D-rIPL_294MoTh9g5Jy0-94">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-71" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onRaftMsg( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1368" y="5355" width="395" height="37" as="geometry" />
+          <mxGeometry x="1424" y="5355" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-74" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::proposeRaftCommand( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="5426" width="395" height="37" as="geometry" />
+          <mxGeometry x="1426" y="5426" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-75" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onTick( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="5497" width="395" height="37" as="geometry" />
+          <mxGeometry x="1426" y="5497" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-76" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onPrepareSplitRegion( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="5562" width="395" height="37" as="geometry" />
+          <mxGeometry x="1426" y="5562" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-77" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onApproximateRegionSize( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="5632" width="395" height="37" as="geometry" />
+          <mxGeometry x="1426" y="5632" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-78" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::onGCSnap( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="5702" width="395" height="37" as="geometry" />
+          <mxGeometry x="1426" y="5702" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-79" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;peerMsgHandler::startTicker( )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1368" y="5772" width="395" height="37" as="geometry" />
+          <mxGeometry x="1424" y="5772" width="395" height="37" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-84" value="&lt;b&gt;MsgTypeRaftMessage&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="5357" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1167" y="5357" width="228.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-87" value="&lt;b&gt;MsgTypeRaftCmd&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="5429.5" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1167" y="5429.5" width="228.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-88" value="&lt;b&gt;MsgTypeStart&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1108" y="5775.5" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1164" y="5775.5" width="228.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-89" value="&lt;b&gt;MsgTypeSplitRegion&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="5565.5" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1167" y="5565.5" width="228.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-90" value="&lt;b&gt;MsgTypeRegionApproximateSize&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="5635.5" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1151" y="5635.5" width="228.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-91" value="&lt;b&gt;MsgTypeGCSnap&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="5705.5" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1167" y="5705.5" width="228.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-rIPL_294MoTh9g5Jy0-92" value="&lt;b&gt;MsgTypeTick&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="5500.5" width="228.5" height="30" as="geometry" />
+          <mxGeometry x="1167" y="5500.5" width="228.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D-rIPL_294MoTh9g5Jy0-94" value="&lt;b&gt;raft.RawNode::Step()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=20;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1921" y="5355" width="380" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
