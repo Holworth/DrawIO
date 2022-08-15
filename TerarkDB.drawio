@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T12:03:13.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ptGEO-YJ0yLoGQb2ll7R" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T12:06:06.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JkDkzQNx1oAyz_7iaZZb" version="20.2.2" type="github">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="3204" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,8 +215,20 @@
         <mxCell id="kILyC2GDoXRgEJGStj_N-17" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;BuildTable( )&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1160" y="680" width="119" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kILyC2GDoXRgEJGStj_N-19" value="CompactionIterator c_iter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="710" width="250" height="30" as="geometry" />
+        <mxCell id="kILyC2GDoXRgEJGStj_N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="kILyC2GDoXRgEJGStj_N-20" target="kILyC2GDoXRgEJGStj_N-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kILyC2GDoXRgEJGStj_N-20" value="ScopedArenaIterator iter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="720" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kILyC2GDoXRgEJGStj_N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="kILyC2GDoXRgEJGStj_N-21" target="kILyC2GDoXRgEJGStj_N-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kILyC2GDoXRgEJGStj_N-21" value="BuilderSeparateHelper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="720" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kILyC2GDoXRgEJGStj_N-22" value="CompactionIterator c_itr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1232.5" y="790" width="235" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
