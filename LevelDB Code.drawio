@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T14:16:42.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="U9uV5K0XwsY7tOsNZhBu" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T14:23:51.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RB6tVjxDHiD1TahdKPMv" version="20.2.3" type="github">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -127,6 +127,12 @@
         </mxCell>
         <mxCell id="khzNMPUFedaNidEhiiPi-34" value="Value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=1;fillColor=#ffff88;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="757" y="176" width="134" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="khzNMPUFedaNidEhiiPi-36" value="Type 1B" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="340" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khzNMPUFedaNidEhiiPi-37" value="CRC 4B" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="370" width="129" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
