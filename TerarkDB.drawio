@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T05:52:10.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="S71YbcO_7KsR1irnL9hG" version="20.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-22T05:53:40.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mjkDWZNbt6bfviZtkYCn" version="20.2.4" type="github" pages="5">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="3530" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,8 +495,20 @@
         <mxCell id="jUARHp0l6xGf8o7XwU_a-36" value="CompactionJob::RunSelf( )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="795" y="340" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="r1yeCiHP8Jl40F23dBW0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jUARHp0l6xGf8o7XwU_a-38" target="r1yeCiHP8Jl40F23dBW0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jUARHp0l6xGf8o7XwU_a-38" value="Env::Schedule(CompactionJob::&lt;br&gt;CallProcessCompaction)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="770" y="419" width="211" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r1yeCiHP8Jl40F23dBW0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1yeCiHP8Jl40F23dBW0-4" target="r1yeCiHP8Jl40F23dBW0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1yeCiHP8Jl40F23dBW0-4" value="CompactionJob::ProcessCompaction( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="769" y="505" width="213" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="r1yeCiHP8Jl40F23dBW0-6" value="CompactionJob::&lt;br&gt;ProcessKeyValueCompaction( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="585" width="216" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
