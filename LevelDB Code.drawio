@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T14:19:13.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dtHOes_j0atB9CoCBpsF" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-22T14:19:32.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kkhBDz1Tq3pjl0TcFbt3" version="20.2.5" type="github" pages="2">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="1783" dy="963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -260,10 +260,10 @@
         <mxCell id="1EpJbb0KWKm_QvYivSs3-4" value="+ Add(const Slice&amp;, const Slice&amp;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1EpJbb0KWKm_QvYivSs3-1">
           <mxGeometry y="60" width="244" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1EpJbb0KWKm_QvYivSs3-14" value="+ Finish( ) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1EpJbb0KWKm_QvYivSs3-1">
+        <mxCell id="1EpJbb0KWKm_QvYivSs3-14" value="+ Finish( ) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1EpJbb0KWKm_QvYivSs3-1">
           <mxGeometry y="86" width="244" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1EpJbb0KWKm_QvYivSs3-15" value="+ Flush( ) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1EpJbb0KWKm_QvYivSs3-1">
+        <mxCell id="1EpJbb0KWKm_QvYivSs3-15" value="+ Flush( ) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#000000;" vertex="1" parent="1EpJbb0KWKm_QvYivSs3-1">
           <mxGeometry y="112" width="244" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1EpJbb0KWKm_QvYivSs3-5" value="TableBuilder::Rep" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
