@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T14:02:42.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oq1ZVT8Le4HrXGeGbk8L" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-03T14:05:25.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eEjfdGeORbIIRlITZrD6" version="20.2.7" type="github" pages="4">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="2194" dy="1183" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -745,6 +745,24 @@
         </mxCell>
         <mxCell id="iD0v7KzITGA84-RA4tVr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="iD0v7KzITGA84-RA4tVr-32" target="iD0v7KzITGA84-RA4tVr-33">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-38" value="FilterBlockReader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="771" y="629" width="344" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-39" value="+ policy_: const FilterPolicy*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
+          <mxGeometry y="26" width="344" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-42" value="+ data_: const char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
+          <mxGeometry y="52" width="344" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-43" value="+ offset_: const char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
+          <mxGeometry y="78" width="344" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
+          <mxGeometry y="104" width="344" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-41" value="+ KeyMayMatch(uint64_t block_offset, const Slice&amp; key): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
+          <mxGeometry y="112" width="344" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
