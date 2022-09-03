@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T14:05:25.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eEjfdGeORbIIRlITZrD6" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-03T14:08:13.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EgLBst9BXlV45qHvlQdF" version="20.2.7" type="github" pages="4">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="2194" dy="1183" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -722,10 +722,10 @@
         <mxCell id="iD0v7KzITGA84-RA4tVr-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-24">
           <mxGeometry y="130" width="241" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="iD0v7KzITGA84-RA4tVr-27" value="+ NewIterator(const Comparator): Iterator*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-24">
+        <mxCell id="iD0v7KzITGA84-RA4tVr-27" value="+ NewIterator(const Comparator): Iterator*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-24">
           <mxGeometry y="138" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="iD0v7KzITGA84-RA4tVr-32" value="+ Block(BlockContents)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-24">
+        <mxCell id="iD0v7KzITGA84-RA4tVr-32" value="+ Block(BlockContents)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-24">
           <mxGeometry y="164" width="241" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iD0v7KzITGA84-RA4tVr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="iD0v7KzITGA84-RA4tVr-18" target="iD0v7KzITGA84-RA4tVr-25">
@@ -747,7 +747,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iD0v7KzITGA84-RA4tVr-38" value="FilterBlockReader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="771" y="629" width="344" height="138" as="geometry" />
+          <mxGeometry x="772" y="499" width="344" height="138" as="geometry" />
         </mxCell>
         <mxCell id="iD0v7KzITGA84-RA4tVr-39" value="+ policy_: const FilterPolicy*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
           <mxGeometry y="26" width="344" height="26" as="geometry" />
@@ -763,6 +763,18 @@
         </mxCell>
         <mxCell id="iD0v7KzITGA84-RA4tVr-41" value="+ KeyMayMatch(uint64_t block_offset, const Slice&amp; key): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="iD0v7KzITGA84-RA4tVr-38">
           <mxGeometry y="112" width="344" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="iD0v7KzITGA84-RA4tVr-16" target="iD0v7KzITGA84-RA4tVr-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-45" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Status &lt;b&gt;ReadBlock&lt;/b&gt;(RandomAccessFile*, const ReadOptions&amp;amp;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;const BlockHandle&amp;amp;, BlockContents*)&lt;/font&gt;&lt;/div&gt;" style="html=1;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="113" width="354" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="iD0v7KzITGA84-RA4tVr-46" target="iD0v7KzITGA84-RA4tVr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iD0v7KzITGA84-RA4tVr-46" value="Read the contents of a specified block in target file into &lt;i&gt;BlockContents&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="162" width="354" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
