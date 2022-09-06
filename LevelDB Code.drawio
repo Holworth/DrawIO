@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T13:50:27.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DOqD1dBdgMYw5yfpNCJ6" version="20.2.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-09-06T14:06:29.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="SI5TcgMtjUNGjUW8nV78" version="20.2.8" type="github" pages="8">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="1426" dy="769" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1184,7 +1184,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AWWW4G5VROUjK1EX14bS-1" value="FileMetaData" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="652" y="339" width="191" height="182" as="geometry" />
+          <mxGeometry x="959" y="477" width="191" height="182" as="geometry" />
         </mxCell>
         <mxCell id="AWWW4G5VROUjK1EX14bS-2" value="+ ref: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-1">
           <mxGeometry y="26" width="191" height="26" as="geometry" />
@@ -1203,6 +1203,60 @@
         </mxCell>
         <mxCell id="AWWW4G5VROUjK1EX14bS-6" value="+ largest: InternalKey" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-1">
           <mxGeometry y="156" width="191" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-8" value="Version" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="227" y="479" width="595" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-9" value="+ vset_: VersionSet*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="26" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-12" value="+ next_: Version*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="52" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-13" value="+ prev_: Version*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="78" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-15" value="+ files_: std::vector&lt;FileMetaData*&gt;[kNumLevels]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="104" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-14" value="+ file_to_compact_: FileMetaData*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="130" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="156" width="595" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-11" value="+ Get(const ReadOptions&amp;, const LookupKey&amp;, std::string*, GetStats*): Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="164" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-17" value="+ GetOverlappingInputs(int level, InternalKey* begin, *end, vector&lt;FileMetaData*&gt; *inputs): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="AWWW4G5VROUjK1EX14bS-8">
+          <mxGeometry y="190" width="595" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AWWW4G5VROUjK1EX14bS-14" target="AWWW4G5VROUjK1EX14bS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-18" value="VersionSet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="175" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-19" value="+ table_cache_: TableCache*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-22" value="+ descriptor_file_: WritableFile*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-23" value="+ descriptor_log_: log::Writer*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-24" value="+ current_: Version*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="104" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-25" value="+ compact_pointer_: std::string[kNumLevels]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="130" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="156" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="AWWW4G5VROUjK1EX14bS-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+          <mxGeometry y="164" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
