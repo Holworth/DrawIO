@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T14:20:26.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9U6Sz5CpgAh_uHS9imrL" version="20.2.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-09-06T14:20:32.792Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HRHA6w8LB2BOSQ9x1eAx" version="20.2.8" type="github" pages="8">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="1426" dy="769" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1249,7 +1249,7 @@
         <mxCell id="AWWW4G5VROUjK1EX14bS-24" value="+ current_: Version*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
           <mxGeometry y="104" width="373" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AWWW4G5VROUjK1EX14bS-38" value="+ A bunch of numbers: uint64_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
+        <mxCell id="AWWW4G5VROUjK1EX14bS-38" value="+ A bunch of numbers: uint64_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
           <mxGeometry y="130" width="373" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AWWW4G5VROUjK1EX14bS-25" value="+ compact_pointer_: std::string[kNumLevels]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AWWW4G5VROUjK1EX14bS-18">
