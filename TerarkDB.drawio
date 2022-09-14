@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T08:42:52.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="29_535ULVr1ABgfVYgt5" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-14T08:49:02.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UKHRrBEjYfDDHWEBJsK_" version="20.2.7" type="github" pages="6">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="3204" dy="1377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -936,8 +936,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="132" width="712" height="436" as="geometry" />
+        </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="288" y="209" width="485" height="176" as="geometry" />
+          <mxGeometry x="377" y="192" width="485" height="176" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="289" y="603" width="480" height="139" as="geometry" />
@@ -999,58 +1002,76 @@
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;initialize&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="665" y="569" width="51" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="TpncYc_GJ6v-8dc2gUtK-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Device Abstraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="820" y="491.5" width="128" height="30" as="geometry" />
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-18" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;ZenFS&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="137" width="69" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;User-space library&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="825" y="661" width="128" height="30" as="geometry" />
+          <mxGeometry x="782" y="660" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;OS Support&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="825" y="811" width="128" height="30" as="geometry" />
+          <mxGeometry x="787" y="814" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-22" value="ZoneExtent" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="317" y="338" width="98" height="36" as="geometry" />
+          <mxGeometry x="406" y="321" width="98" height="36" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-23" value="ZoneFile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="480" y="338" width="98" height="36" as="geometry" />
+          <mxGeometry x="569" y="321" width="98" height="36" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ZonedWritableFile&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="298" y="249" width="134" height="36" as="geometry" />
+          <mxGeometry x="387" y="232" width="134" height="36" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ZonedSequentialFile&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="463.75" y="249" width="128.5" height="36" as="geometry" />
+          <mxGeometry x="552.75" y="232" width="128.5" height="36" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-26" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ZonedRandomAccessFile&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="607" y="249" width="158" height="36" as="geometry" />
+          <mxGeometry x="696" y="232" width="158" height="36" as="geometry" />
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpncYc_GJ6v-8dc2gUtK-24" target="TpncYc_GJ6v-8dc2gUtK-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="193" y="393" as="sourcePoint" />
-            <mxPoint x="747" y="470" as="targetPoint" />
+            <mxPoint x="282" y="376" as="sourcePoint" />
+            <mxPoint x="836" y="453" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpncYc_GJ6v-8dc2gUtK-25" target="TpncYc_GJ6v-8dc2gUtK-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="375" y="295" as="sourcePoint" />
-            <mxPoint x="539" y="348" as="targetPoint" />
+            <mxPoint x="464" y="278" as="sourcePoint" />
+            <mxPoint x="628" y="331" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpncYc_GJ6v-8dc2gUtK-26" target="TpncYc_GJ6v-8dc2gUtK-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="538" y="295" as="sourcePoint" />
-            <mxPoint x="539" y="348" as="targetPoint" />
+            <mxPoint x="627" y="278" as="sourcePoint" />
+            <mxPoint x="628" y="331" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-30" value="io_zenfs.h/io_zenfs.cc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="288" y="209" width="133" height="17" as="geometry" />
+          <mxGeometry x="377" y="192" width="133" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="TpncYc_GJ6v-8dc2gUtK-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.516;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;width=6;endSize=5.84;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="528.164" y="443" as="sourcePoint" />
-            <mxPoint x="528" y="385" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="527.5" y="426.5" />
-            </Array>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Filesystem Abstraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="275" y="137" width="157" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="199" y="191" width="130" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-37" value="SuperBlock" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="219" y="231" width="91" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-38" value="ZenMetaLog" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="218" y="320" width="91" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-39" value="fs_zenfs.h/fs_zenfs.cc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="198" y="193" width="133" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-42" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpncYc_GJ6v-8dc2gUtK-36" target="TpncYc_GJ6v-8dc2gUtK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="537" as="sourcePoint" />
+            <mxPoint x="747" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpncYc_GJ6v-8dc2gUtK-21" target="TpncYc_GJ6v-8dc2gUtK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="537" as="sourcePoint" />
+            <mxPoint x="747" y="487" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
