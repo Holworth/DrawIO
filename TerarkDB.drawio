@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T08:37:06.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OoOff3TskKGrpsEOy6hw" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-14T08:37:56.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sT7K-qxERNJFhrNravCr" version="20.2.7" type="github" pages="6">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="3204" dy="1377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -995,6 +995,15 @@
         </mxCell>
         <mxCell id="TpncYc_GJ6v-8dc2gUtK-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;initialize&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="665" y="569" width="51" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Device Abstraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="820" y="491.5" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;User-space library&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="825" y="661" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;OS Support&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="825" y="811" width="128" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
