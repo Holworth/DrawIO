@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T08:34:21.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5OomkdLY5Fz-hMaEbeIJ" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-14T08:35:01.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="04i9fJ9M6O8Oy-RqI6dn" version="20.2.7" type="github" pages="6">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="3204" dy="1377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -986,6 +986,15 @@
               <mxPoint x="539.5" y="784" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpncYc_GJ6v-8dc2gUtK-8" target="TpncYc_GJ6v-8dc2gUtK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="623" as="sourcePoint" />
+            <mxPoint x="747" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpncYc_GJ6v-8dc2gUtK-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;initialize&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="665" y="569" width="51" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
