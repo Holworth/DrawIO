@@ -1,11 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T14:14:58.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="K1wFAOuAjhebHcs50qy0" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-06T14:17:30.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9dp2LNC3if5CRAj-hwAu" version="20.4.0" type="github">
   <diagram id="PeX5fFQuTDtqNtm7up72" name="be workflow">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bLBO3SAoGhUCr67wh768-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="bLBO3SAoGhUCr67wh768-1" target="bLBO3SAoGhUCr67wh768-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bLBO3SAoGhUCr67wh768-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FragmentMgr::exec_plan_fragment&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="136" y="143" width="264" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="bLBO3SAoGhUCr67wh768-2" target="bLBO3SAoGhUCr67wh768-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FragmentExecState::prepare&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="225" width="264" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="bLBO3SAoGhUCr67wh768-4" target="bLBO3SAoGhUCr67wh768-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;PlanFragmentExecutor::prepare&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="314" width="264" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="bLBO3SAoGhUCr67wh768-6" target="bLBO3SAoGhUCr67wh768-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ExecNode::create_tree&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="399" width="264" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="bLBO3SAoGhUCr67wh768-8" target="bLBO3SAoGhUCr67wh768-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ExecNode::create_tree_helper&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="484" width="264" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="bLBO3SAoGhUCr67wh768-10" target="bLBO3SAoGhUCr67wh768-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ExecNode::create_node&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="575" width="264" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bLBO3SAoGhUCr67wh768-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ExecNode::init&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="575" width="264" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
