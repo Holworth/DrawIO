@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-23T08:33:45.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kj1wUodqfagqGv1mJjWT" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-23T08:34:11.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gRj3J9cp_6NOzlJ0zIp8" version="20.4.1" type="github" pages="2">
   <diagram id="3AFov8Uf1Q9FbotQsO03" name="第 1 页">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -159,6 +159,9 @@
         <mxCell id="s764JBKuaVGnC5ATPU81-3" value="KV Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="216" y="294" width="83" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="s764JBKuaVGnC5ATPU81-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="s764JBKuaVGnC5ATPU81-4" target="s764JBKuaVGnC5ATPU81-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-4" value="KV Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="345" y="352" width="77" height="79" as="geometry" />
         </mxCell>
@@ -189,6 +192,9 @@
         <mxCell id="s764JBKuaVGnC5ATPU81-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.711;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="s764JBKuaVGnC5ATPU81-14" target="s764JBKuaVGnC5ATPU81-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="s764JBKuaVGnC5ATPU81-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="s764JBKuaVGnC5ATPU81-14" target="s764JBKuaVGnC5ATPU81-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-14" value="KV Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="710" y="352" width="80" height="79" as="geometry" />
         </mxCell>
@@ -197,6 +203,9 @@
         </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-19" value="KV Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="967" y="294" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s764JBKuaVGnC5ATPU81-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="s764JBKuaVGnC5ATPU81-20" target="s764JBKuaVGnC5ATPU81-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-20" value="KV Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1099" y="352" width="84.5" height="79" as="geometry" />
@@ -223,13 +232,13 @@
           <mxGeometry x="674" y="457" width="74" height="25" as="geometry" />
         </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-36" value="storage engine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="592" y="357" width="63" height="60" as="geometry" />
+          <mxGeometry x="590" y="361.5" width="63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-37" value="storage engine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="977" y="357" width="63" height="60" as="geometry" />
+          <mxGeometry x="977" y="361.5" width="63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-38" value="storage engine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="227.5" y="357" width="63" height="60" as="geometry" />
+          <mxGeometry x="226" y="361.5" width="63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s764JBKuaVGnC5ATPU81-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.613;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s764JBKuaVGnC5ATPU81-12" target="s764JBKuaVGnC5ATPU81-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
