@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T05:06:22.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="atZ9uStJeD6-ZviHouv1" version="20.3.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-15T05:17:14.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="iqhRjftMJ1sE2RUu_jAm" version="20.3.1" type="github" pages="8">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="1773" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1688,7 +1688,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4I2EjnCstRQdFbOB5A2a" name="第 8 页">
-    <mxGraphModel dx="946" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1718,6 +1718,15 @@
         </mxCell>
         <mxCell id="KVEWzlkxlCbrcBlW-Qm1-9" value="The rest zones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="514" y="304" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEWzlkxlCbrcBlW-Qm1-10" value="001.log" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="208" y="492" width="97" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEWzlkxlCbrcBlW-Qm1-11" value="002.log" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="315" y="492" width="97" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEWzlkxlCbrcBlW-Qm1-12" value="003.log" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="422" y="492" width="97" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
