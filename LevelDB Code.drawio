@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T13:01:54.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VhbSc5x2Mb-DBHTQASHJ" version="20.5.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-11-30T13:03:22.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VbgQJ9KtskLlZaV7VjJ2" version="20.5.3" type="github" pages="9">
   <diagram id="GbncoUWseBvU7BKK2AJM" name="第 1 页">
     <mxGraphModel dx="1351" dy="923" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1305,6 +1305,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R9YRWoJJ6Zk5tXiVmzMD-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=19;fontColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="847" y="1230" width="62" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="R9YRWoJJ6Zk5tXiVmzMD-22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=19;fontColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="981" y="1230" width="91" height="85" as="geometry" />
+        </mxCell>
         <mxCell id="hXmuABwTNkF-B7e77wGy-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontSize=19;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="484" y="417" width="130.5" height="166" as="geometry" />
         </mxCell>
@@ -1436,6 +1442,12 @@
         </mxCell>
         <mxCell id="R9YRWoJJ6Zk5tXiVmzMD-21" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;After Compaction&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=19;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="591" y="1235" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9YRWoJJ6Zk5tXiVmzMD-23" value="Merge results block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="971" y="1327" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9YRWoJJ6Zk5tXiVmzMD-25" value="Invalid block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1327" width="121" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
