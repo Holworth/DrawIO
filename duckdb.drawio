@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T07:05:33.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="EN40MG9U2BELHDLLV9ar" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T07:06:46.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="augb4NAHsh644ARBrJdc" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
     <mxGraphModel dx="4754" dy="941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="OjtDRb3r2wVRJjBGD-eC-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="629" y="284" width="61" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OjtDRb3r2wVRJjBGD-eC-9" value="Defend by &lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Connection::BeginTransaction( ) Connection::Commit( )&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="OjtDRb3r2wVRJjBGD-eC-9" value="&lt;b&gt;Defend by &lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Connection::BeginTransaction( ) Connection::Commit( )&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="696" y="331" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OjtDRb3r2wVRJjBGD-eC-11" value="&lt;i&gt;CreateSchemaInfo&lt;/i&gt; info&lt;br&gt;info.Schema=&lt;b&gt;DEFAULT_SCHEMA&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
@@ -49,13 +49,19 @@
           <mxGeometry x="287.5" y="570" width="364" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="287.5" y="620" width="364" height="175" as="geometry" />
+          <mxGeometry x="287.5" y="620" width="364" height="212" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-4" value="SingleFileCheckpointReader::LoadFromStorage( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="287.5" y="648" width="363" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-5" value="WriteAheadLog::Replay( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="287.5" y="726" width="364" height="38" as="geometry" />
+          <mxGeometry x="287.5" y="755" width="364" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-7" value="&lt;b&gt;Load the latest checkpoint&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="365" y="692.5" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-8" value="&lt;b&gt;reply the WAL&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="362" y="793" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
