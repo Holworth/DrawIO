@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T07:01:12.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pmizD3VGP-FesQ1QAlJO" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T07:05:33.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="EN40MG9U2BELHDLLV9ar" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
-    <mxGraphModel dx="1018" dy="659" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4754" dy="941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,9 @@
         <mxCell id="OjtDRb3r2wVRJjBGD-eC-4" value="catalog.CreateSchema( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="310" y="319" width="319" height="46" as="geometry" />
         </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="OjtDRb3r2wVRJjBGD-eC-6" target="VM_0vS1CVFmWydNHuRjW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OjtDRb3r2wVRJjBGD-eC-6" value="StorageManager::LoadDatabase( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="310" y="416" width="319" height="46" as="geometry" />
         </mxCell>
@@ -37,10 +40,22 @@
           <mxGeometry x="696" y="331" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OjtDRb3r2wVRJjBGD-eC-11" value="&lt;i&gt;CreateSchemaInfo&lt;/i&gt; info&lt;br&gt;info.Schema=&lt;b&gt;DEFAULT_SCHEMA&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="21" y="541" width="238" height="60" as="geometry" />
+          <mxGeometry x="-79" y="548" width="238" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create a default schema&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="53" y="601" width="183" height="30" as="geometry" />
+          <mxGeometry x="-47" y="608" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;SingleFileStorageManager::LoadDatabase( )&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="570" width="364" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="620" width="364" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-4" value="SingleFileCheckpointReader::LoadFromStorage( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="648" width="363" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-5" value="WriteAheadLog::Replay( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="726" width="364" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
