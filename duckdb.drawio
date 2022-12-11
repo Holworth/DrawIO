@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T07:10:18.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PiH-4UiqcwjADbj7d4Sw" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T07:12:39.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Tkw0Br4BPJd3KXYM2yV1" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
-    <mxGraphModel dx="4754" dy="941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4866" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,9 @@
         <mxCell id="VM_0vS1CVFmWydNHuRjW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="287.5" y="620" width="364" height="212" as="geometry" />
         </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-4" target="VM_0vS1CVFmWydNHuRjW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-4" value="SingleFileCheckpointReader::LoadFromStorage( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="287.5" y="648" width="363" height="44" as="geometry" />
         </mxCell>
@@ -69,8 +72,23 @@
         <mxCell id="VM_0vS1CVFmWydNHuRjW-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="814" y="617" width="401" height="213" as="geometry" />
         </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-15" target="VM_0vS1CVFmWydNHuRjW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-11" value="SingleFileBlockManager::GetMetaBlock( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="856" y="640" width="324" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-12" value="CheckpointReader::LoadCheckpoint( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="856" y="742" width="324" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-15" value="&lt;font color=&quot;#ff0000&quot;&gt;MetaBlockReader&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="936.5" y="699" width="163" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=none;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-11" target="VM_0vS1CVFmWydNHuRjW-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1018" y="687" as="sourcePoint" />
+            <mxPoint x="1018" y="742" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
