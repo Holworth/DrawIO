@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T07:46:23.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="V2OD-5cgaFjEO-YGPDrj" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T07:57:00.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="f4Yc3GnqJ8cUScmMhhst" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
-    <mxGraphModel dx="4866" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4573" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,6 +141,15 @@
         <mxCell id="VM_0vS1CVFmWydNHuRjW-28" value="info = SchemaCatalogEntry::Deserialize( )&lt;br&gt;catalog.CreateSchema(info)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1865.5" y="643" width="317" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-29" target="VM_0vS1CVFmWydNHuRjW-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2247" y="768" />
+              <mxPoint x="2247" y="530" />
+              <mxPoint x="2513" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-29" value="CheckpointReader::ReadTable( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1865.5" y="748" width="317" height="41" as="geometry" />
         </mxCell>
@@ -153,11 +162,29 @@
         <mxCell id="VM_0vS1CVFmWydNHuRjW-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-33" target="VM_0vS1CVFmWydNHuRjW-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#FF0000;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-33" target="VM_0vS1CVFmWydNHuRjW-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2758" y="673" />
+              <mxPoint x="2758" y="533" />
+              <mxPoint x="3002" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-33" value="CheckpointReader::ReadTableData( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2365" y="652.5" width="317" height="41" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-34" value="Catalog::CreateTable( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2365" y="745" width="317" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-37" value="&lt;b&gt;CheckpointReader::ReadTableData( )&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="570" width="334" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="619" width="334" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-40" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;TableDataReader::ReadTableData( )&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2848" y="667" width="303" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
