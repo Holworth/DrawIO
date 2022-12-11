@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T07:06:46.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="augb4NAHsh644ARBrJdc" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T07:10:18.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PiH-4UiqcwjADbj7d4Sw" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
     <mxGraphModel dx="4754" dy="941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -62,6 +62,15 @@
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-8" value="&lt;b&gt;reply the WAL&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="362" y="793" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-9" value="&lt;b&gt;SingleFileCheckpointReader::LoadFromStorage( )&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="814" y="570" width="402" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="814" y="617" width="401" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-11" value="SingleFileBlockManager::GetMetaBlock( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="856" y="640" width="324" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
