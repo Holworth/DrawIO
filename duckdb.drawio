@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T06:31:41.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_7oUxhZ5cAtoY0FwIOTd" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T06:37:24.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8VWuZPNF432ouDCy2-V1" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
-    <mxGraphModel dx="4372" dy="694" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4866" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,6 +196,18 @@
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-47" value="mutex blocks_lock&#xa;unordered_map&lt;block_id_t, weak_ptr&lt;BlockHandle&gt;&gt; blocks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-44">
           <mxGeometry y="34" width="474" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-48" value="SingleFileBlockManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="68" y="2500" width="445" height="283" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-49" value="+ db : DatabaseInstance&amp;&#xa;+ path : string&#xa;+ handle : unique_ptr&lt;FileHandle&gt;&#xa;+ header_buffer : FileBuffer&#xa;+ free_list : set&lt;block_id_t&gt;&#xa;+ multi_use_blocks : unordered_map&lt;block_id_t, uint32_t&gt;&#xa;+ modified_blocks : unordered_set&lt;block_id_t&gt; &#xa;+ meta_block : block_id_t&#xa;+ max_block : block_id_t&#xa;+ free_list_id : block_id_t&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-48">
+          <mxGeometry y="26" width="445" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-48">
+          <mxGeometry y="249" width="445" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-51" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-48">
+          <mxGeometry y="257" width="445" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
