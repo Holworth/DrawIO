@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T12:29:07.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Js1pLmFAC5YYginurpAI" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T12:36:13.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_tNnzm_2N9Ek6TkHMIt6" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
-    <mxGraphModel dx="4866" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4997" dy="1098" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,7 +210,7 @@
           <mxGeometry y="257" width="445" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-52" value="FileBuffer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="725" y="2565" width="337" height="371" as="geometry" />
+          <mxGeometry x="670" y="2576" width="337" height="371" as="geometry" />
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-53" value="+ allocator : Allocator&amp;&#xa;+ type : FileBufferType&#xa;&#xa;+ buffer : data_ptr_t&#xa;+ size : uint64_t &#xa;&#xa;+ internal_buffer : data_ptr_t&#xa;+ internal_size : uint64_t&#xa;&#xa;+ malloced_buffer : data_ptr_t&#xa;+ malloced_size : uint64_t " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-52">
           <mxGeometry y="26" width="337" height="229" as="geometry" />
@@ -220,6 +220,24 @@
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-55" value="+ Read(FileHandle&amp;, uint64_t)&#xa;+ ReadAndChecksum(FileHandle&amp;, uint64_t)&#xa;+ Write(FileHandle&amp;, uint64_t)&#xa;+ ChecksumAndWrite(FileHandle&amp;, uint64_t)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-52">
           <mxGeometry y="263" width="337" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-49" target="VM_0vS1CVFmWydNHuRjW-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-57" value="FileHandle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1157" y="2576" width="337" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-58" value="+ file_system : FileSystem&#xa;+ path : string&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-57">
+          <mxGeometry y="26" width="337" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-57">
+          <mxGeometry y="81" width="337" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-60" value="+ int64_t Read(void*, idx_t) &#xa;+ int64_t Write(void*, idx_t)&#xa;+ void Read(void*, idx_t, idx_t position)&#xa;+ void Write(void*, idx_t, idx_t position)&#xa;+ void Sync( )&#xa;+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-57">
+          <mxGeometry y="89" width="337" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-55" target="VM_0vS1CVFmWydNHuRjW-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
