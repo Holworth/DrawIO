@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-17T02:16:43.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="byvo-B7H2PPHqw69EiuJ" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-17T02:16:51.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="RHEBFQ-iw1gF-_sDKMgg" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
     <mxGraphModel dx="4997" dy="1098" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -274,6 +274,9 @@
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-79" value="+ lock : mutex&#xa;+ state : atomic&lt;BlockState&gt;&#xa;+ readers : atomic&lt;int32_t&gt;&#xa;+ block_id : const block_id_t&#xa;+ buffer : unique_ptr&lt;FileBuffer&gt;&#xa;+ eviction_timestamp : atomic&lt;idx_t&gt;&#xa;+ can_destroy : bool&#xa;+ memory_usage : idx_t&#xa;+ memory_charge : BufferPoolReservation&#xa;+ unswizzled : const char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-77">
           <mxGeometry y="34" width="474" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=19;fontColor=#000000;" edge="1" parent="1" source="VM_0vS1CVFmWydNHuRjW-47" target="VM_0vS1CVFmWydNHuRjW-79">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
