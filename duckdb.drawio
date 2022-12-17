@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-17T02:22:45.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="e53pa3UWas0ZO8CSkC1H" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-17T02:38:42.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MyQs8iqYffraywNDemSL" version="20.6.0" type="github">
   <diagram id="GQswBAs9rWUTwK8a14QV" name="第 1 页">
     <mxGraphModel dx="4997" dy="1098" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -286,6 +286,15 @@
         </mxCell>
         <mxCell id="VM_0vS1CVFmWydNHuRjW-84" value="+ id : block_id_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-81">
           <mxGeometry y="26" width="215" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-94" value="BlockPointer" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;strokeWidth=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="3016" width="215" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-95" value="+ block_id : block_id_t&#xa;+ offset : uint32_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontSize=16;fontColor=#000000;" vertex="1" parent="VM_0vS1CVFmWydNHuRjW-94">
+          <mxGeometry y="26" width="215" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_0vS1CVFmWydNHuRjW-96" value="BLOCK_HEADER_SIZE (8B)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="285" y="3610" width="282" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
