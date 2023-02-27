@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T11:36:12.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PPI1_NBZSNkvu7nuFacf" version="20.8.20" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-27T11:36:54.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BueWVzUlvPHgKPdUAyy-" version="20.8.20" type="github" pages="9">
   <diagram id="zf8hyJvz0gQ867herg3F" name="第 1 页">
     <mxGraphModel dx="2261" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2724,7 +2724,7 @@
           <mxGeometry x="779" y="3172" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NFfXHIZi88t4bDhD-mhZ-87" value="Value SST GC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="434" y="3250" width="161" height="30" as="geometry" />
+          <mxGeometry x="445.5" y="3259" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NFfXHIZi88t4bDhD-mhZ-88" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;4.sst&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;gradientColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="331" y="3146" width="138" height="60" as="geometry" />
@@ -2749,6 +2749,12 @@
         </mxCell>
         <mxCell id="NFfXHIZi88t4bDhD-mhZ-93" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="593" y="3085" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NFfXHIZi88t4bDhD-mhZ-94" value="&lt;font color=&quot;#000000&quot;&gt;(0, 100)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="353" y="3212" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NFfXHIZi88t4bDhD-mhZ-95" value="&lt;font color=&quot;#000000&quot;&gt;(100, 150)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="606.25" y="3212" width="103" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
