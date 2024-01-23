@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T04:40:44.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="zbXMKiq1v3cO-t89Az5Z" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T04:41:21.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="9kPbaZ1vZWD5847QNQuf" version="22.1.21" type="github">
   <diagram id="m65YbvdDa1lrMX-1JaFE" name="第 1 页">
     <mxGraphModel dx="2307" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -88,8 +88,14 @@
         <mxCell id="5ppomdDao6OfVrW-p1Yt-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Message not Arrive&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="365" y="953" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5ppomdDao6OfVrW-p1Yt-3" value="Leader Crash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=hatch;fontSize=26;" vertex="1" parent="1">
+        <mxCell id="5ppomdDao6OfVrW-p1Yt-3" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Leader Crash&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=hatch;fontSize=26;" vertex="1" parent="1">
           <mxGeometry x="658" y="293" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5ppomdDao6OfVrW-p1Yt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="750.5" y="497" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5ppomdDao6OfVrW-p1Yt-5" value="New Leader" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="695.5" y="587" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
