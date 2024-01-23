@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T04:41:49.139Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="r8-Z-5RUqef28fLmVF1T" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T04:42:51.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="G2HToNV9YXgYMIKQc0cN" version="22.1.21" type="github">
   <diagram id="m65YbvdDa1lrMX-1JaFE" name="第 1 页">
     <mxGraphModel dx="2307" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="04_Secdxe5MrCqDxStES-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.8_point_star;fillStyle=auto;fontSize=26;fillColor=#FFE6CC;" parent="1" vertex="1">
+        <mxCell id="04_Secdxe5MrCqDxStES-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.8_point_star;fillStyle=auto;fontSize=26;fillColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="723" y="372" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="04_Secdxe5MrCqDxStES-33" value="initial-encoding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=hatch;fontSize=26;" parent="1" vertex="1">
@@ -94,8 +94,8 @@
         <mxCell id="5ppomdDao6OfVrW-p1Yt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="750.5" y="497" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5ppomdDao6OfVrW-p1Yt-5" value="New Leader" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="695.5" y="587" width="130" height="30" as="geometry" />
+        <mxCell id="5ppomdDao6OfVrW-p1Yt-5" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 23px;&quot;&gt;New Leader&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="701" y="597" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5ppomdDao6OfVrW-p1Yt-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=26;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5ppomdDao6OfVrW-p1Yt-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -123,6 +123,9 @@
               <mxPoint x="1007" y="637" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5ppomdDao6OfVrW-p1Yt-9" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 25px;&quot;&gt;What to send?&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="903" y="722" width="208" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
