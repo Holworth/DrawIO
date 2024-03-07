@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T05:47:31.598Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="tC5fWWvJI934TBhkKeQm" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T05:47:55.795Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="VN3u6hg1QnLTWWZuBqPG" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Ot75c4SXKGla1ZPTJA4R">
     <mxGraphModel dx="2298" dy="1278" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="e0wyHEcGt13Lj6fMSJkj-75" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;send Heartbeat Msg&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;" vertex="1" parent="e0wyHEcGt13Lj6fMSJkj-77">
           <mxGeometry width="354" height="37.328413284132836" as="geometry" />
         </mxCell>
-        <mxCell id="e0wyHEcGt13Lj6fMSJkj-76" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;AppendEntries to peers&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;strokeWidth=1.5;" vertex="1" parent="e0wyHEcGt13Lj6fMSJkj-77">
+        <mxCell id="e0wyHEcGt13Lj6fMSJkj-76" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;i&gt;AppendEntries&lt;/i&gt; &lt;/b&gt;to peers&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;strokeWidth=1.5;" vertex="1" parent="e0wyHEcGt13Lj6fMSJkj-77">
           <mxGeometry x="54.390625" y="58.06642066420664" width="245.21875" height="78.80442804428044" as="geometry" />
         </mxCell>
         <mxCell id="e0wyHEcGt13Lj6fMSJkj-78" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Reset Heartbeat Timer&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;strokeWidth=1.5;" vertex="1" parent="e0wyHEcGt13Lj6fMSJkj-77">
