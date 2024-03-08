@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T06:51:01.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="nCjp56VQklHE4dtQcjTd" version="24.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-08T06:51:36.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ibJSGpCWnW63xlnz799V" version="24.0.2" type="github" pages="4">
   <diagram name="第 1 页" id="Ot75c4SXKGla1ZPTJA4R">
     <mxGraphModel dx="1970" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -569,6 +569,12 @@
         </mxCell>
         <mxCell id="l3r1PZH4yAMrbpLLPrdz-20" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontSize=19;strokeWidth=1.5;" vertex="1" parent="1">
           <mxGeometry x="543" y="133" width="180" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pkX2lvI0cz-KgLmD1Sw0-1" value="Full Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontSize=19;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="543" y="175" width="180" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="pkX2lvI0cz-KgLmD1Sw0-2" value="Chunk Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontSize=19;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="543" y="274.5" width="180" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
