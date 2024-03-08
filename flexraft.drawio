@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T06:46:24.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="QN1v1GkVMfy0RQ2KtTz_" version="24.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-08T06:48:40.966Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="fWqAJdN973WRz96WJAu0" version="24.0.2" type="github" pages="4">
   <diagram name="第 1 页" id="Ot75c4SXKGla1ZPTJA4R">
     <mxGraphModel dx="1970" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -522,6 +522,14 @@
         </mxCell>
         <mxCell id="l3r1PZH4yAMrbpLLPrdz-3" value="commitIndex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=19;strokeWidth=1.5;" vertex="1" parent="l3r1PZH4yAMrbpLLPrdz-4">
           <mxGeometry y="111.78501305370361" width="240" height="55.892506526851804" as="geometry" />
+        </mxCell>
+        <mxCell id="l3r1PZH4yAMrbpLLPrdz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=1.5;" edge="1" parent="l3r1PZH4yAMrbpLLPrdz-11" source="l3r1PZH4yAMrbpLLPrdz-5" target="l3r1PZH4yAMrbpLLPrdz-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="196" />
+              <mxPoint x="260" y="489" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="l3r1PZH4yAMrbpLLPrdz-5" value="lastLogIndex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=19;strokeWidth=1.5;" vertex="1" parent="l3r1PZH4yAMrbpLLPrdz-11">
           <mxGeometry y="167.67209312361106" width="240" height="55.892506526851804" as="geometry" />
