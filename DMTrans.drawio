@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:20:20.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="CR-D0QCVDkaTKOld71ni" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:21:49.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="_vpZHcBlq-K91WTiblXy" version="24.0.2" type="github" pages="2">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -230,6 +230,35 @@
             <mxPoint x="722" y="579" as="sourcePoint" />
             <mxPoint x="733" y="458" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="To6v42EuYQBF89Zu2YXg" name="AuctionMark">
+    <mxGraphModel dx="1021" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-1" value="u_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="45" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-2" value="u_rating" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="45" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-3" value="u_r_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="45" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-4" value="u_sattr0~7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="45" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-5" value="u_balance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="45" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-8" value="&lt;b&gt;User Table&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="13" y="43" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BgdPx1QAClYQI3ikwwbQ-9" value="u_created" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="45" width="67" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
