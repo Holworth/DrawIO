@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:34:51.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="PqXdyPwKDqjJzrr_Pr9U" version="24.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:35:32.786Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="qOhGxQUqlVcYaEvPdCO5" version="24.0.2" type="github" pages="3">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -460,6 +460,15 @@
         </mxCell>
         <mxCell id="98YTa4A8A3PRNbzRz3h1-21" value="f_seats_left" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="763" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-22" value="&lt;b&gt;FindFlights&lt;/b&gt;&lt;div&gt;&lt;b&gt;(10%)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14" y="438" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-23" value="&lt;b&gt;FindOpenSeats&lt;/b&gt;&lt;div&gt;&lt;b&gt;(35%)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14" y="477" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-24" value="&lt;b&gt;NewReservation (35%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14" y="516" width="122" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
