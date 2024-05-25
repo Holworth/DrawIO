@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:25:20.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="EWtL6MDMCeghVen9sKvJ" version="24.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:25:29.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="5KBJMUSnayJrqVJYaRnt" version="24.0.2" type="github" pages="2">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
         <mxCell id="Pkq-g2f9kjL5ydHF5tJS-17" value="&lt;b&gt;NewBids (25%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="17" y="278" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pkq-g2f9kjL5ydHF5tJS-18" value="&lt;b&gt;PostAuction (25%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Pkq-g2f9kjL5ydHF5tJS-18" value="&lt;b&gt;PostAuction (5%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="17" y="308" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pkq-g2f9kjL5ydHF5tJS-19" value="&lt;b&gt;GetIem (10%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
