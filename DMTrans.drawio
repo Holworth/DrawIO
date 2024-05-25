@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:40:46.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="r9LGg83jfPkny0Mwj47E" version="24.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:41:20.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="aPZvSaoxGecvE2xK2Tbv" version="24.0.2" type="github" pages="4">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -557,22 +557,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HbArvOw-vRNxiNP9uTx0-1" value="c_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HbArvOw-vRNxiNP9uTx0-1" value="s_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="156" y="45" width="67" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HbArvOw-vRNxiNP9uTx0-2" value="c_sattr00~19" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HbArvOw-vRNxiNP9uTx0-2" value="sub_nbr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="223" y="45" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HbArvOw-vRNxiNP9uTx0-3" value="&lt;b&gt;Subscriber Table&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="19" y="43" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HbArvOw-vRNxiNP9uTx0-4" value="c_iattr00~09" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HbArvOw-vRNxiNP9uTx0-4" value="&amp;nbsp;bit1~10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="45" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HbArvOw-vRNxiNP9uTx0-5" value="c_iattr10~15" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HbArvOw-vRNxiNP9uTx0-5" value="hex1~10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="403" y="45" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HbArvOw-vRNxiNP9uTx0-6" value="c_iattr16~19" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HbArvOw-vRNxiNP9uTx0-6" value="byte1~10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="493" y="45" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HbArvOw-vRNxiNP9uTx0-7" value="&lt;b&gt;UpdateCustomer (10%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
