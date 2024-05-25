@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:47:20.383Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="H8N6eOCH8Aqsr6o9vc4K" version="24.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:47:45.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="ag4OPLYECwnNFEcUZZdT" version="24.0.2" type="github" pages="5">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -626,7 +626,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lOkOmvhG2KBpkrQqBwC4" name="YCSB-A">
-    <mxGraphModel dx="890" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -665,6 +665,9 @@
         </mxCell>
         <mxCell id="oFpHY5cCwTN9Ok80ZKYX-15" value="field9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="907" y="53" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x7G2LoNepBgBo6waNLgl-1" value="&lt;b&gt;Update (50%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="94" width="117" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
