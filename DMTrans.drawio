@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T09:00:56.343Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="FFD7hQcbhYOI_Q3O_IfC" version="24.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-05-25T09:02:11.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="ho0Xbi6GsDL6_5n7Wum-" version="24.0.2" type="github" pages="6">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -732,7 +732,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aPRRdSxlrhUpsegLjd9d" name="Smallbank">
-    <mxGraphModel dx="657" dy="365" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="707" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -751,14 +751,20 @@
         <mxCell id="mCd9W2jUvXlJOAnFh5gA-5" value="savings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="422" y="53" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mCd9W2jUvXlJOAnFh5gA-6" value="byte1~10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="512" y="53" width="90" height="26" as="geometry" />
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-9" value="&lt;b&gt;WriteCheck&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(15%)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="93" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mCd9W2jUvXlJOAnFh5gA-7" value="msc_location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="602" y="53" width="90" height="26" as="geometry" />
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-10" value="&lt;b&gt;TransactSavings (15%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="131" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mCd9W2jUvXlJOAnFh5gA-8" value="vlr_location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="692" y="53" width="90" height="26" as="geometry" />
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-11" value="&lt;b&gt;SendPayment&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(25%)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="174" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-12" value="&lt;b&gt;DepositChecking&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(25%)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="217" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-13" value="&lt;b&gt;Amaglance&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(25%)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="260" width="117" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
