@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:59:29.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="eGPuwp68Uv2vpZXYMogz" version="24.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-05-25T09:00:56.343Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="FFD7hQcbhYOI_Q3O_IfC" version="24.0.2" type="github" pages="6">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -732,10 +732,34 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aPRRdSxlrhUpsegLjd9d" name="Smallbank">
-    <mxGraphModel dx="1379" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="657" dy="365" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-1" value="cust_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="53" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-2" value="name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="53" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-3" value="&lt;b&gt;Account Table&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="51" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-4" value="checkings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="53" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-5" value="savings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="53" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-6" value="byte1~10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="53" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-7" value="msc_location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="53" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mCd9W2jUvXlJOAnFh5gA-8" value="vlr_location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692" y="53" width="90" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
