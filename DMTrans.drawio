@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:33:41.326Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="J_qFNi3Erh2nwOOa36LF" version="24.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:34:51.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="PqXdyPwKDqjJzrr_Pr9U" version="24.0.2" type="github" pages="3">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -433,6 +433,33 @@
         </mxCell>
         <mxCell id="98YTa4A8A3PRNbzRz3h1-12" value="RW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="418" y="287" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-13" value="&lt;b&gt;Flight Table&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="390" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-14" value="f_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="392" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-15" value="f_al_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-16" value="f_depart_ap_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-17" value="f_depart_time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-18" value="f_arrive_time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-19" value="f_status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-20" value="f_seats_total" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="673" y="392" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="98YTa4A8A3PRNbzRz3h1-21" value="f_seats_left" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="763" y="392" width="90" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
