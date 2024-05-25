@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T08:17:56.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="7rWQ5au3CxIGl-GQx1iE" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T08:19:05.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="P614OU1gvM4DbNThQ5KA" version="24.0.2" type="github">
   <diagram name="TPC-C" id="YoWfGW_Q1pRVEKNJeyMN">
     <mxGraphModel dx="1103" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="550" math="0" shadow="0">
       <root>
@@ -169,6 +169,41 @@
         </mxCell>
         <mxCell id="2qxT3WYH5yLi-fg2unxa-50" value="RW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="353.5" y="273" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-51" value="&lt;b&gt;Payment (43%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="419" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-52" value="&lt;b&gt;NewOrder (45%)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="449" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-53" value="RW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243" y="419" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="439" as="sourcePoint" />
+            <mxPoint x="480" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-55" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="733" y="437" as="sourcePoint" />
+            <mxPoint x="733" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qxT3WYH5yLi-fg2unxa-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="733" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-57" value="RW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="577" y="409" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2qxT3WYH5yLi-fg2unxa-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qxT3WYH5yLi-fg2unxa-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="545" as="sourcePoint" />
+            <mxPoint x="480" y="424" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
